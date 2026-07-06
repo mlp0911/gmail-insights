@@ -1,0 +1,26 @@
+{
+  "newsletter_domains": [
+    "news.", "mailer.", "email.", "mail.", "sendgrid.", "sparkpost.",
+    "amazonses.", "mandrillapp.", "mailchimp.", "newsletter.",
+    "info.", "updates.", "promo.", "marketing."
+  ],
+
+  "newsletter_tokens": [
+    "newsletter", "angebot", "sale", "rabatt", "%", "deal",
+    "promo", "aktion", "jetzt", "sparen", "exklusiv"
+  ],
+
+  "spam_labels": [
+    "SPAM", "JUNK", "PROMOTIONS", "UPDATES"
+  ],
+
+  "noreply_prefixes": [
+    "no-reply@", "noreply@", "donotreply@", "do-not-reply@"
+  ],
+
+  "system_senders": [
+    "mailer-daemon@", "postmaster@", "notification@", "system@", "automated@"
+  ],
+
+  "frequency_threshold": 30
+}

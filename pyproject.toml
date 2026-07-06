@@ -1,0 +1,51 @@
+# pyproject.toml
+
+[project]
+name = "gmail-insights"
+version = "0.1.0"
+description = "Analyse-Framework für Gmail-Metadaten, Thread-Strukturen und probabilistische Mustererkennung."
+readme = "README.md"
+requires-python = ">=3.11"
+
+authors = [
+    { name = "Michael Leipold" }
+]
+
+dependencies = [
+    "google-api-python-client>=2.129.0",
+    "google-auth>=2.29.0",
+    "google-auth-oauthlib>=1.2.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "pyarrow>=15.0.0",
+    "scikit-learn>=1.4.0",
+    "networkx>=3.2.0",
+    "python-dateutil>=2.9.0",
+    "tqdm>=4.66.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+    "mypy>=1.8.0",
+    "ruff>=0.3.0",
+    "black>=24.2.0"
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+warn_return_any = true
+warn_unused_ignores = true
+strict = true
+

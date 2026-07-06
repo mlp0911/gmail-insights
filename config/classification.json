@@ -1,0 +1,25 @@
+{
+  "domains": {
+    "private": ["gmail.com"],
+    "commerce": ["amazon", "mediamarkt", "ebay", "zalando"],
+    "government": ["gov", "bund", "bayern", "stadt"],
+    "education": ["schule", "uni", "fh"],
+    "newsletter": ["news", "mail", "info", "newsletter"]
+  },
+
+  "subject_keywords": {
+    "transaction": ["rechnung", "bestellung", "auftrag", "invoice", "payment"],
+    "marketing": ["newsletter", "angebot", "aktion", "deal"],
+    "account": ["konto", "passwort", "bestätigen"],
+    "spam": ["gewinn", "gratis", "geschenk"]
+  },
+
+  "labels": {
+    "important": "IMPORTANT",
+    "unread": "UNREAD",
+    "updates": "CATEGORY_UPDATES",
+    "promotions": "CATEGORY_PROMOTIONS",
+    "spam": "CATEGORY_SPAM",
+    "personal": "CATEGORY_PERSONAL"
+  }
+}
